@@ -19,6 +19,8 @@
     display:flex;
     gap:10px;
     padding-bottom: 10px;
+    border: dashed yellow;
+    width: 50%;
 }
 .first-division h4{
     border: red dashed;
@@ -45,24 +47,35 @@
     background-color: #F7F7F7;
     display: flex;
     gap:100px;
+    height:600px;
+    max-height: 600px;
 }
-.second-division div:first-of-type{
+.partieune{
     width:60%;
     height: 100%;
     background-color: yellow;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.second-division div:first-of-type img{
-    Width: 45%;
-    height:600px;
-
+.partieune img{
+    Width: 70%;
+    height:70%;
 }
-.second-division div:first-of-type+div{
+.partiedeux{
     width:40%;
     height: 100%;
     background-color: rgb(153, 0, 255);
 }
-.second-division div:first-of-type+div img{
-    width:45%;
-    height: 600px;
+.iconetaboutus{
+    display:flex;
+    border:dashed aqua;
+    gap:10px;
 }
+.second-division h4{
+    border: red dashed;
+    font-size:1.1rem;
+    font-weight: 600;
+    color: #1521CF;
+}
+
