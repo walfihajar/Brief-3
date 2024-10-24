@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/img/Logo.svg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prêt - FutureBank</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pret.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="left-icons">
+                    <i class="top-icon fa-regular fa-building"></i>
+                    <span>Business</span>
+                    <i class="top-icon personal fa-solid fa-user"></i>
+                    <span>Personal</span>
+                </div>
+                <div class="right-icons">
+                    <i class="top-icon fa-solid fa-phone-volume"></i>
+                    <span class="m-r">1-800-356-6522</span>
+                    <i class="top-icon fa-solid fa-right-to-bracket"></i>
+                    <span>Sign up/Login</span>
+                </div>
+            </div>
+            <hr>
+            <div class="down-nav">
+                <img src="/img/Logo.svg" alt="Future bank logo">
+                <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html">projets d'investissement</a>
+                <a href="index.html">prêt</a>
+                <a href="index.html">à propos</a>
+                <a href="index.html">contact</a>
+                </div>
+                <a href="#" class="apply-now">Apply now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- End header -->
+
+    <!-- start banner -->
+
+    <div class="banner">
+        <div class="left-content">
+            <img src="/img/stroke.svg" alt="">
+            <span>Welcome To FutureBank</span>
+            <p>Stay In Control <br> Your<span id="special"> Finances</span></p>
+            <div class="buttons-banner">
+                <a href="#">create account</a>
+                <a href="#">check balance</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Banner -->
+
+    <!-- start loan simulation -->
+    <section class="loan-simulation">
+        <div class="section-title">
+            <img src="/img/stroke.svg" alt="Stroke">
+            <span>Loan simulation</span>
+        </div>
+        <div class="loan-text-section">
+            <p>We offer the "Loan Simulation" service on our website to help customers better understand their financing options. This service allows them to estimate monthly payments and loan durations based on the desired amount and interest rate. By providing accurate and easy-to-understand information, we aim to empower our customers to make informed financial decisions that align with their needs and goals. We are here to support them on their journey to achieving their dreams, whether it's buying a home, financing a project, or any other objective.</p>
+        </div>
+        <p style="text-align: left;width: 80%;margin-bottom: 37px;font-weight: 600;">The loans we provide:</p>
+        <div class="loan-grid">
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Car Loan</p>
+                </div>
+            </div>
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Healthcare Loan</p>
+                </div>
+            </div>
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Business Equipment Loan</p>
+                </div>
+            </div>
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Home Loan</p>
+                </div>
+            </div>
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Construction Equipment Loan</p>
+                </div>
+            </div>
+            <div class="radiu-box">
+                <div class="overlay">
+                    <p>Education Loan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end loan simulation -->
+
+    <!-- start middle section -->
+    <section class="middle-section">
+        <div class="left-content-middle">
+            <p class="phone" style="font-size: 32px;">
+                Wants to know more about our <span class="phone-span" style="color: var(--main-color);font-size: 32px;">credit loan ?</span>
+            </p>
+            <p class="p-phone">
+                Get a call back from an expert.
+            </p>
+        </div>
+        <div class="right-content-middle">
+                <input placeholder="first name" type="text" name="first-name" id="first-name">
+                <input placeholder="second name" type="text" name="last-name" id="last-name">
+                <input placeholder="phone number" type="text" name="phone" id="phone">
+                <input placeholder="city" type="text" name="city" id="city">
+                <a href="#">submit</a>
+        </div>
+    </section>
+    <!-- end middle section -->
+    <!-- start simulation -->
+
+    <section class="calculation">
+        <div class="calc-inputs">
+            <div class="overlay1">
+                <form id="form">
+                    <label for="loan-reason">My project </label>
+                    <select id="loan-reason" name="loan-reason">
+                        <option value="car_loan">Car Loan</option>
+                        <option value="healthcare_loan">Healthcare Loan</option>
+                        <option value="business_equipment_loan">Business Equipment Loan</option>
+                        <option value="home_loan">Home Loan</option>
+                        <option value="construction_equipment_loan">Construction Equipment Loan</option>
+                        <option value="education_loan">Education Loan</option>
+                    </select>
+                    <label for="i-am"> i'am a </label>
+                    <select id="jobs" name="fruits" required>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Software Engineer">Software Engineer</option>
+                        <option value="Nursee">Nurse</option>
+                        <option value="Financial Analyst">Financial Analyst</option>
+                        <option value="Sales Representative">Sales Representative</option>
+                        <option value="Graphic Designer">Electrician</option>
+                        <option value="Construction Worker">Construction Worker</option>
+                        <option value="Construction Worker">Jobless</option>
+                    </select>
+                    <label for="mounth">mount to payback</label>
+                    <input type="number" name="mounth" id="mount" min="1" required>
+                    <label for="amount">amount</label>
+                    <input type="number" name="amount" id="amount" min="500" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="calc-output">
+            <p>The amount you will pay is:</p>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <!-- and simulation  -->
+    <!-- start footer  -->
+
+    <footer>
+        <div>
+            <img src="../img/logo-footer.svg" alt="Footer Logo">
+            <ul>
+                <li>264 Manon road F1 456 caron Town</li>
+                <li>Office No 3457</li>
+                <li>info@salem.com</li>
+                <li>1-800-356-6522</li>
+                <li>
+                    <div class="socialMedia">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+                <h3>About us</h3>
+            <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="#">Internet Banking</a></li>
+                <li><a href="#">Mobile Banking</a></li>
+                <li><a href="#">Alista Bank Security</a></li>
+                <li><a href="#">Rates And Charges</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>DOWNLOAD OUR APP</h3>
+            <ul>
+                <li><p>Tackle your Banking with our Mobile
+                    app and Make Your Life Easy.</p></li>
+                    <li>
+                        <div>
+                            <img src="../img/playstoreImg.svg" alt="Play Store">
+                            <img src="../img/appstoreImg.svg" alt="App Store">
+                        </div>
+                    </li>
+            </ul>
+        </div>
+        <div>
+            <h6>Copyright ©2024 All rights reserved | FutureBank</h6>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+<script src="js/script.js"></script>
+<script src="/js/loan-calc.js"></script>
+</body>
+</html>
