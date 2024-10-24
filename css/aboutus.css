@@ -7,7 +7,6 @@
     height:60vh;
     background-size:cover ;
     background-repeat: no-repeat;
-    border: red dashed;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -19,17 +18,14 @@
     display:flex;
     gap:10px;
     padding-bottom: 10px;
-    border: dashed yellow;
     width: 50%;
 }
 .first-division h4{
-    border: red dashed;
     font-size:1.1rem;
     font-weight: 600;
     color: #1521CF;
 }
 .first-division p{
-    border: blue dashed;
     font-weight: bolder;
     width: 25%;
     font-size: 1.7rem;
@@ -43,7 +39,6 @@
 
 /*------------------------------------------------Second devision------------------------------------------------*/
 .second-division {
-    border: green dashed;
     background-color: #F7F7F7;
     display: flex;
     gap: 100px;
@@ -54,7 +49,6 @@
 .partieune {
     width: 60%;
     height: 100%;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,59 +60,76 @@
 .partiedeux {
     width: 40%;
     height: 100%;
-    background-color: rgb(153, 0, 255);
-    padding-top: 100px;
     display: flex;
+    padding: 20px;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    gap:20px;
 }
 .icon-et-aboutus {
+    width: 50%;
     display: flex;
-    border: dashed aqua;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: flex-start;
 }
+
 .second-division h4 {
-    border: red dashed;
     font-size: 1.1rem;
     font-weight: 600;
     color: #1521CF;
 }
-.second-division p {
-    border: blue dashed;
+
+.second-division h3 {
     font-weight: bolder;
-    width: 70%;
+    width: 90%;
     font-size: 1.7rem;
-    text-align: center;
 }
 .about-us {
-    text-align: center;
+    width:90%;
+    gap:20px;
 }
 .about-us ul {
     list-style: none;
-    padding: 0;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
 }
-.btn {
-    display: inline-block;
+ul img{
+    width:20px;
+    height:20px;
+}
+.goals{
+    display:flex;
+    gap:20px;
+}
+.goals p{
+    color:#6D6D6D;
+    font-size: 0.9rem;
+}
+strong{
+    color:#1521CF;
+}
+
+.btn1{
+    display: flex;
+    flex-direction: column;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
+    width:190px;
+    text-align: center;
 }
 /*------------------------------------------------ End Second Division------------------------------------------------*/
  
 
 /*------------------------------------------------ Third Division------------------------------------------------*/
 .third-division{
-    border:red dashed;
     text-align: center;
     background: url(/img/about-us/third-division-img.svg);
-    height:60vh;
+    height:70vh;
     background-size:cover ;
     background-repeat: no-repeat;
     padding: 20px;
@@ -127,8 +138,9 @@
 }
 .third-division h2{
     font-weight: 800;
-    border:dashed red;
     margin-bottom: 30px;
+    font-size: x-large;
+    padding-top: 40px;
 }
 h2+button{
     background:#FFFFFF;
@@ -138,7 +150,7 @@ h2+button{
     color:#0B1035;
     font-weight: 500;
     cursor: pointer;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .carousel{
     width: 60%;
@@ -149,7 +161,7 @@ h2+button{
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
-    padding:10px;
+    padding: 10px;
 }
 .slide {
     width: 100%;
@@ -158,16 +170,7 @@ h2+button{
     background-color: #f1eded76;
     text-align: center;
 }
-.button.prev{
-    position: relative;
-    top:15px;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.button.next{
-    transform: translateY(-50%);
-    cursor: pointer;
-}
+
 /*------------------------------------------------ End Third Division------------------------------------------------*/
 
 
@@ -178,13 +181,27 @@ h2+button{
 }
 .logos{
     background-color: #FFFFFF;
-    border:red dashed;
     display: flex;
     flex-wrap:wrap ;
     justify-content: center;
     gap:20px;
     position: relative;
-    bottom:80px;
-    width:70%;
+    bottom:70px;
+    width:60%;
     padding:10px;
+    box-shadow: 7px 9px 30px 7px #0B1035;
+}
+.logos img{
+    width:100px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+button.prev, button.next{
+    width:30px;
+    background-color: #fff;
+    border:none;
+    border-radius: 800px;
 }
