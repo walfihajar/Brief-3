@@ -311,4 +311,12 @@
     .cards-container{
         bottom: 62px;
     }
+ .services {
+    padding: 100px 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 }
