@@ -447,7 +447,9 @@ footer > div:last-child h6 {
   .content-text {
     justify-content: center;
     align-items: center;
-
+  }
+  .content-text p {
+    padding:15px 70px 0 0;
   }
 }
 
