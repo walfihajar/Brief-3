@@ -27,6 +27,9 @@
     color: #1521CF;
     font-weight: bold;
     margin-right: 130px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
 }
 .banner_title div{
     display: flex;
@@ -53,7 +56,6 @@
     gap : 1rem;
 }
 .box{
-    /* width : calc(95/3); */
     background-position: center; 
     background-color:#ECF3FB;
     border-radius: 10px;
@@ -126,9 +128,7 @@
 @media (max-width:1200px){
     .banner{
         background-position: 35%;
-    }
-    .product_container{
-        flex-wrap: wrap;
+        max-height: 100% ;
     }
 }
 @media (max-width:950px){
@@ -141,12 +141,93 @@
         justify-content: center;
         width: 100%;
     }
-    .banner_title{
-        padding-left: 6%;
-    }
 }
 @media (max-width:900px){
     .banner{
+        background-position: 46%;
+    }
+    .banner_title{
+        width: 40%;
+    }
+    .banner_title h2{
+        font-size: 20px;
+        width: 150px;
+    }
+    .banner_title img{
+        padding-left: 50px;
+        padding-bottom: 24px;
+    }
+    .banner_title p{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .banner_title span{
+        font-size: 32px;
+    }
+}
+@media (max-width:700px){
+    .banner_title{
+        width: 61%;
+    }
+    .banner_title h2{
+        font-size: 20px;
+        width: 150px;
+    }
+    .banner_title img{
+        padding-left: 50px;
+        padding-bottom: 24px;
+    }
+    .banner_title p{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .banner_title span{
+        font-size: 32px;
+    }
+}
+@media (max-width:500px){
+    .banner{
         background-position: 60%;
+    }
+    .banner_title{
+        width: 80%;
+    }
+    .banner_title h2{
+        font-size: 20px;
+        width: 150px;
+    }
+    .banner_title img{
+        padding-left: 50px;
+        padding-bottom: 24px;
+    }
+    .banner_title p{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .banner_title span{
+        font-size: 32px;
+    }
+    .product_container{
+        grid-template-columns:  repeat(1, 300px);
+        grid-template-rows: repeat(6, minmax(500px, auto));
+    }
+    .product_container .box_text{
+        padding: 0% 30px;
+        text-align: center;
+    }
+
+    .box_text h3{
+        font-size: 20px;
+    }
+    .box_text p,ul li{
+        font-size: 12px;
+    }
+    .box_text ul {
+        text-align: left;
+    }
+    .box_text button{
+        width: 120px;
+        height: 40px;
+        font-size: 0.8rem;
     }
 }
