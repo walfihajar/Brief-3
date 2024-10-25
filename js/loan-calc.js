@@ -7,6 +7,6 @@ let result = document.getElementById('result');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-    let res = mount.value * 0.6 * amount.value + 500;
+    let res = mount.value * 0.6 * amount.value + 500 ;
     result.innerHTML = res.toFixed(2)
 });
