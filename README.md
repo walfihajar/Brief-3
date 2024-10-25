@@ -9,8 +9,8 @@ Le projet inclut les pages suivantes :
 - **Accueil** : Présentation des avantages de la plateforme et des projets d'investissement.
 - **Investissement** : Affichage des projets disponibles avec des options d'investissement.
 - **Prêt** : Calculateur de prêt et formulaire de contact pour les conseillers.
-- **À propos** : Description de l'organisation et de ses partenaires avec un carrousel d'images.
-- **Contact** : Formulaire de contact et FAQ interactive.
+- **À propos** : Description de l'organisation et de ses partenaires avec un carrousel.
+- **Contact** : Formulaire de contact et FAQ .
 - **Login** : Authentification ou inscription pour les utilisateurs.
 
 ## Technologies Utilisées
@@ -35,7 +35,7 @@ Le projet inclut les pages suivantes :
 - **Calculateur de prêt interactif**
 - **Système d'investissement personnalisé**
 - **Interface responsive** adaptée aux différents types d'écrans (desktop, tablette, mobile)
-- **FAQ interactive** et formulaire de contact
+- **FAQ** et formulaire de contact
 - **Menu burger animé** pour la navigation mobile
 
 ## Déploiement
