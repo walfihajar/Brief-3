@@ -1,0 +1,317 @@
+
+
+/*------------------------------------------------First section------------------------------------------------*/
+.first-section{
+    background: url(../img/about-us/first-division.svg) center;
+    width: 100%;
+    height:100vh;
+    background-position: left;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8%;
+    margin-bottom: 30px;
+}
+.first-section div{
+    display:flex;
+    gap:10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.first-section h3{
+    font-size:1.1rem;
+    font-weight: 600;
+    color: #1521CF;
+}
+.first-section h4{
+    font-weight: bolder;
+    width: 50%;
+    font-size: 1.7rem;
+}
+.first-section span{
+    font-size: 1.7rem;
+    color:#1521CF;
+}
+/*------------------------------------------------End first section------------------------------------------------*/
+
+
+/*------------------------------------------------Second Section------------------------------------------------*/
+.second-section {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: row wrap;
+    padding:100px 30px;
+}
+.partieune {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partieune img {
+    width: 90%;
+    max-height: 90%;
+}
+.partiedeux {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.heading-with-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.second-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1521CF;
+}
+
+.second-section h4 {
+    font-weight: bolder;
+    width: 90%;
+    font-size: 1.7rem;
+}
+.partiedeux span{
+    font-size: 1.7rem;
+    color:#1521CF;
+}
+.textes {
+    width:90%;
+    gap:20px;
+}
+.textes ul {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+ul img{
+    width:20px;
+    height:20px;
+}
+.goals{
+    display:flex;
+    gap:20px;
+}
+.goals p{
+    color:#6D6D6D;
+    font-size: 0.9rem;
+}
+strong{
+    color:#1521CF;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #1521CF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    max-width:50%;
+    text-align: center;
+    cursor: pointer;
+}
+/*------------------------------------------------ End Second Section------------------------------------------------*/
+ 
+
+/*------------------------------------------------ Third Section ------------------------------------------------*/
+.third-section{
+    text-align: center;
+    background: url(../img/about-us/third-division-img.svg);
+    min-height: 400px;
+    background-size:cover ;
+    padding: 100px 0px;
+    color:white;
+    margin-bottom: 30px;
+}
+.third-section h4{
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: x-large;
+    padding: 0px 20px;
+}
+h4+button{
+    background:#FFFFFF;
+    padding:5px 30px;
+    border: none;
+    border-radius: 7px;
+    color:#0B1035;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.carousel{
+    width: 60%;
+    margin: auto;
+}
+.slides {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.slide {
+    width: 100%;
+    padding: 20px;
+    background-color: #f1eded76;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+button.prev, button.next{
+    width:30px;
+    background-color: #fff;
+    border:none;
+    border-radius: 800px;
+}
+
+/*------------------------------------------------ End Third Section ------------------------------------------------*/
+
+
+/*------------------------------------------------ Fourth Division------------------------------------------------*/
+.fourth-section{
+    display: flex;
+    justify-content: center;
+}
+.logos{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap:20px;
+    position: relative;
+    bottom:70px;
+    width:60%;
+    padding:10px;
+    box-shadow: 7px 9px 30px 7px #0B1035;
+}
+.logos img{
+    width:100px;
+}
+
+/*------------------------------------------------ End Fourth Division------------------------------------------------*/
+
+
+/*------------------------------------------------ Media Queries ------------------------------------------------*/
+@media(max-width : 1200px){
+    .third-section{
+        background-position: center;
+    }
+    .first-section {
+        background-position: 16%;
+        gap: 40px;
+    }
+    .first-section h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #1521CF;
+    }
+    .first-section h4,.first-section  span {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width : 900px){
+    .first-section h4 {
+        width: 60%;
+    }
+}
+
+@media(max-width : 750px){
+
+    .first-section {
+        background-position: 25%;
+    }
+    .third-section h4 {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .third-section {
+        min-height: 400px;
+    }
+    .carousel {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .logos {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        position: static;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 15px;
+        box-shadow: none;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media(max-width : 550px){
+
+    .first-section {
+        background-position: 30%;
+    }
+ 
+    .first-section h4,.first-section div{
+        width:90%;
+    }
+    .second-section{
+        display: flex;
+        width:100%;
+        flex-flow:row wrap-reverse;
+        padding:100px 10px;
+    }
+    .partieune {
+        width: 100%;
+    }
+    .partiedeux {
+        width: 100%;
+    }
+    .second-section h3{
+        font-size: 1rem;
+    }
+    .second-section h4 {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .second-section h4 span{
+        font-size: 1.3rem;
+    }
+    .third-section h4{
+        font-weight: 800;
+        margin-bottom: 30px;
+        padding-top: 10px;
+    }  
+    .fourth-section{
+        display: flex;
+        justify-content: center;
+    }
+    .logos img{
+        width:100px;
+    }
+    .first-section {
+        height: 70vh;
+    }
+    .btn {
+        max-width: 70%;
+    }
+}
+
+
+
