@@ -82,14 +82,14 @@ header .down img{
 }
 
 
-header .down > a, ul li:last-child a{
+header .down > a, ul #List:last-child a{
     padding: 8px 16px;
     background-color: #1521CF;
     color: white;
     border-radius: 20px;
     text-decoration: none;
 }
-header .down ul li:last-child a{
+header .down ul #List:last-child a{
     display: none;
     border: 2px solid white;
 }
@@ -303,9 +303,4 @@ footer > div:last-child h6{
     footer > div:last-child h6 {
         font-size: 0.8rem;
     }
-<<<<<<< HEAD
 }
->>>>>>> 4f29676b6cffcb075797a735b3c92b58cf0fbe3c
-=======
-}
->>>>>>> 31108dc2521a044523fa978e20356bd4e2f1c836
