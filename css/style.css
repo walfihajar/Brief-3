@@ -36,6 +36,7 @@ header .top{
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.37);
     font-weight: lighter;
+    color: #9C9C9C;
 }
 
 header .top > div{
