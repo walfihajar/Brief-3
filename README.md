@@ -40,7 +40,7 @@ Le projet inclut les pages suivantes :
 
 ## Déploiement
 Le site est hébergé sur GitHub Pages/Vercel et peut être consulté via le lien suivant : 
-- [Lien vers le site]()
+- [Lien vers le site](https://walfihajar.github.io/Brief-3/)
 
 ## Maquettes et Prototypes
 Les maquettes des pages desktop et mobile sont disponibles sur Figma/Adobe XD :
