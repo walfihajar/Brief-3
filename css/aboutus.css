@@ -206,20 +206,57 @@ button.prev, button.next{
 
 /*------------------------------------------------ End Fourth Division------------------------------------------------*/
 
-@media(max-width : 767px){
+/*------------------------------------------------ Media Queries ------------------------------------------------*/
 
-    .first-division p{
-        font-weight: bolder;
-        width: 25%;
-        font-size: 16px;
+@media(max-width : 750px){
+
+    .first-section{
+        background-position: 5%;
     }
-
-
 
 }
 
 
 
+@media(max-width : 550px){
+
+    /*------------------------------------------------ First Division------------------------------------------------*/
+    .first-section{
+        background-position: 6%;
+    }
+    .first-section h3{
+        font-size: 1rem;
+    }
+    .first-section h4 {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .first-section h4 span{
+        font-size: 1.3rem;
+    }
+
+    /*------------------------------------------------ Second Division------------------------------------------------*/
+    .second-section{
+        display: flex;
+        flex-direction: column-reverse;
+        width:100%
+    }
+    .partieune img {
+        width: 100%;
+        max-height: 90%;
+    }
+    .second-section h3{
+        font-size: 1rem;
+    }
+    .second-section h4 {
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .second-section h4 span{
+        font-size: 1.3rem;
+    }
+
+}
 
 
 
