@@ -40,7 +40,6 @@
 /*------------------------------------------------Second Section------------------------------------------------*/
 .second-section {
     background-color: #F7F7F7;
-    border:red dashed;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -52,7 +51,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: green dashed;
 }
 .partieune img {
     width: 90%;
@@ -64,7 +62,6 @@
     flex-flow: column wrap;
     padding: 20px;
     justify-content: center;
-    border:yellow dashed;
 }
 .heading-with-icon {
     display: flex;
@@ -135,13 +132,11 @@ strong{
     padding: 100px 0px;
     color:white;
     margin-bottom: 30px;
-    border:dashed rgb(154, 223, 14);
 }
 .third-section h4{
     font-weight: 800;
     margin-bottom: 30px;
     font-size: x-large;
-    border:red dashed;
     padding: 0px 20px;
 }
 h4+button{
