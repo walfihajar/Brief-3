@@ -82,14 +82,14 @@ header .down img{
 }
 
 
-header .down > a, ul li:last-child a{
+header .down > a, ul #List:last-child a{
     padding: 8px 16px;
     background-color: #1521CF;
     color: white;
     border-radius: 20px;
     text-decoration: none;
 }
-header .down ul li:last-child a{
+header .down ul #List:last-child a{
     display: none;
     border: 2px solid white;
 }
