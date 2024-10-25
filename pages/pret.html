@@ -12,35 +12,35 @@
 <body>
     <!-- start header -->
     <header>
-        <nav>
-            <div class="top-nav">
-                <div class="left-icons">
-                    <i class="top-icon fa-regular fa-building"></i>
-                    <span>Business</span>
-                    <i class="top-icon personal fa-solid fa-user"></i>
-                    <span>Personal</span>
-                </div>
-                <div class="right-icons">
-                    <i class="top-icon fa-solid fa-phone-volume"></i>
-                    <span class="m-r">1-800-356-6522</span>
-                    <i class="top-icon fa-solid fa-right-to-bracket"></i>
-                    <span>Sign up/Login</span>
-                </div>
+            
+
+        <div class="top">
+            <div>
+                <div><img src="../img/building-img.svg" alt="Business image"><h6>Business</h6></div>
+                <div><img src="../img/user-img.svg" alt="User"><h6>Personal</h6></div>
             </div>
-            <hr>
-            <div class="down-nav">
-                <img src="/img/Logo.svg" alt="Future bank logo">
-                <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="index.html">projets d'investissement</a>
-                <a href="index.html">prêt</a>
-                <a href="index.html">à propos</a>
-                <a href="index.html">contact</a>
-                </div>
-                <a href="#" class="apply-now">Apply now</a>
+            <div>
+                <div><img src="../img/tele-img.png" alt="Number"><h6>1-800-356-6522</h6></div>
+                <div><img src="../img/door-img.png" alt="Sign"><h6>SignUp/Login</h6></div>
             </div>
-        </nav>
+        </div>
+        <div class="down">
+            <img src="../img/NewLogoImage.svg" alt="Logo Future Bank" >
+            <ul id="List">
+                <span id="closeList">&times;</span>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">projets d'investissement</a></li>
+                <li><a href="pages/pret.html">prêt</a></li>
+                <li><a href="#">à propos</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="pages/login.html">Apply now</a></li>
+                
+            </ul>
+            <a href="login.html">Apply now</a>
+            <i id="openList" class="fa-solid fa-bars"></i>
+        </div>
     </header>
+
 
     <!-- End header -->
 
@@ -130,8 +130,9 @@
         <div class="calc-inputs">
             <div class="overlay1">
                 <form id="form">
-                    <label for="loan-reason">My project </label>
-                    <select id="loan-reason" name="loan-reason">
+                    <label for="loan-reason">My project</label>
+                    <select id="loan-reason" name="loan-reason" required>
+                        <option value="" disabled selected>Select a loan reason</option> <!-- Placeholder option -->
                         <option value="car_loan">Car Loan</option>
                         <option value="healthcare_loan">Healthcare Loan</option>
                         <option value="business_equipment_loan">Business Equipment Loan</option>
@@ -139,16 +140,17 @@
                         <option value="construction_equipment_loan">Construction Equipment Loan</option>
                         <option value="education_loan">Education Loan</option>
                     </select>
-                    <label for="i-am"> i'am a </label>
+                    <label for="jobs"> i'am a </label>
                     <select id="jobs" name="fruits" required>
+                        <option value="" disabled selected>Select your job</option> 
                         <option value="Teacher">Teacher</option>
                         <option value="Software Engineer">Software Engineer</option>
-                        <option value="Nursee">Nurse</option>
+                        <option value="Nurse">Nurse</option>
                         <option value="Financial Analyst">Financial Analyst</option>
                         <option value="Sales Representative">Sales Representative</option>
-                        <option value="Graphic Designer">Electrician</option>
+                        <option value="Electrician">Electrician</option> 
                         <option value="Construction Worker">Construction Worker</option>
-                        <option value="Construction Worker">Jobless</option>
+                        <option value="Jobless">Jobless</option> 
                     </select>
                     <label for="mounth">mounth to payback</label>
                     <input type="number" name="mounth" id="mount" min="1" required>

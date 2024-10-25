@@ -292,7 +292,7 @@
         font-size: 10px;
     }
     #we-provide{
-        font-size: 32px;
+        font-size: 16px;
         width: 100%;
         text-align: center;
         font-weight: 700; 
@@ -300,5 +300,15 @@
     }
     #special-card-service p{
         color:white;
+    }
+    .buttons-banner a {
+        font-size: 10px;
+        width: 120px;
+    }
+    .card-img{
+        max-width: 50%;
+    }
+    .cards-container{
+        bottom: 62px;
     }
 }
