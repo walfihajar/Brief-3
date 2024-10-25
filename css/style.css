@@ -1,5 +1,4 @@
-/* The main sty
-e of the project */
+/* The main style of the project */
 
 /* import font : popinns */
 
@@ -84,12 +83,15 @@ header .down img{
 }
 
 
-header .down > a, ul #List:last-child a{
+header .down > a, #List li:last-child a{
     padding: 8px 16px;
     background-color: #1521CF;
     color: white;
     border-radius: 20px;
     text-decoration: none;
+}
+#List li:last-child a{
+    display: none;
 }
 header .down ul #List:last-child a{
     display: none;
@@ -117,7 +119,7 @@ header .down ul span{
     header .top{
         display: none;
     }
-    header .down > a{
+    #List li:last-child a{
         display: block;
         padding: 8px 32px;
         border: 2px solid white;
