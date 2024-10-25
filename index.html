@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/img/Logo.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - FutureBank</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -11,37 +12,32 @@
 <body>
     <!-- start header -->
     <header>
-        <nav>
-            <div class="top-nav">
-                <div class="left-icons">
-                    <i class="top-icon fa-regular fa-building"></i>
-                    <span>Business</span>
-                    <i class="top-icon personal fa-solid fa-user"></i>
-                    <span>Personal</span>
-                </div>
-                <div class="right-icons">
-                    <i class="top-icon fa-solid fa-phone-volume"></i>
-                    <span class="m-r">1-800-356-6522</span>
-                    <i class="top-icon fa-solid fa-right-to-bracket"></i>
-                    <span>Sign up/Login</span>
-                </div>
+        <div class="top">
+            <div>
+                <div><img src="img/building-img.svg" alt="Business image"><h6>Business</h6></div>
+                <div><img src="img/user-img.svg" alt="User"><h6>Personal</h6></div>
             </div>
-            <hr>
-            <div class="down-nav">
-                <img src="img/Logo.svg" alt="Future bank logo">
-                <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="index.html">projets d'investissement</a>
-                <a href="index.html">prêt</a>
-                <a href="index.html">à propos</a>
-                <a href="index.html">contact</a>
-                </div>
-                <a href="#" class="apply-now">Apply now</a>
+            <div>
+                <div><img src="img/tele-img.png" alt="Number"><h6>1-800-356-6522</h6></div>
+                <div><img src="img/door-img.png" alt="Sign"><h6>SignUp/Login</h6></div>
             </div>
-        </nav>
+        </div>
+        <div class="down">
+            <img src="img/NewLogoImage.svg" alt="Logo Future Bank" >
+            <ul id="List">
+                <span id="closeList">&times;</span>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/PDI.html">projets d'investissement</a></li>
+                <li><a href="pages/pret.html">prêt</a></li>
+                <li><a href="pages/aboutus.html">à propos</a></li>
+                <li><a href="pages/contact.html">contact</a></li>
+                <li><a href="pages/login.html">Apply now</a></li>
+                
+            </ul>
+            <a href="pages/login.html">Apply now</a>
+            <i id="openList" class="fa-solid fa-bars"></i>
+        </div>
     </header>
-
-    <!-- End header -->
 
     <!-- start banner -->
 
@@ -120,7 +116,7 @@
             <img src="img/stroke.svg" alt="">
             <span class="why-us-title-inside"> why choose us </span>
         </div>
-        <p style="font-size: 48px;width: 50%; text-align: center; font-weight: 700; color: #0B1035 !important;">We provide you The must wanted Services as you wanted to</p>
+        <p id="we-provide">We provide you The must wanted Services as you wanted to</p>
         <div class="grid-card">
             <div class="services-card">
                 <img src="/img/mobile-banking.svg" alt="">
@@ -160,7 +156,7 @@
 
     <footer>
         <div>
-            <img src="../img/logo-footer.svg" alt="Footer Logo">
+            <img src="img/logo-footer.svg" alt="Footer Logo">
             <ul>
                 <li>264 Manon road F1 456 caron Town</li>
                 <li>Office No 3457</li>
@@ -201,8 +197,8 @@
                     app and Make Your Life Easy.</p></li>
                     <li>
                         <div>
-                            <img src="../img/playstoreImg.svg" alt="Play Store">
-                            <img src="../img/appstoreImg.svg" alt="App Store">
+                            <img src="img/playstoreImg.svg" alt="Play Store">
+                            <img src="img/appstoreImg.svg" alt="App Store">
                         </div>
                     </li>
             </ul>
