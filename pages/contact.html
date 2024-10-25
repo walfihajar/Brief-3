@@ -6,38 +6,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- start header -->
     <header>
-        <nav>
-            <div class="top-nav">
-                <div class="left-icons">
-                    <i class="top-icon fa-regular fa-building"></i>
-                    <span>Business</span>
-                    <i class="top-icon personal fa-solid fa-user"></i>
-                    <span>Personal</span>
-                </div>
-                <div class="right-icons">
-                    <i class="top-icon fa-solid fa-phone-volume"></i>
-                    <span class="m-r">1-800-356-6522</span>
-                    <i class="top-icon fa-solid fa-right-to-bracket"></i>
-                    <span>Sign up/Login</span>
-                </div>
+        <div class="top">
+            <div>
+                <div><img src="../img/building-img.svg" alt="Business image"><h6>Business</h6></div>
+                <div><img src="../img/user-img.svg" alt="User"><h6>Personal</h6></div>
             </div>
-            <hr>
-            <div class="down-nav">
-                <img src="../img/LOGO.png" alt="Future bank logo">
-                <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="index.html">projets d'investissement</a>
-                <a href="index.html">prêt</a>
-                <a href="index.html">à propos</a>
-                <a href="contact.html">contact</a>
-                </div>
-                <a href="#" class="apply-now">Apply now</a>
+            <div>
+                <div><img src="../img/tele-img.png" alt="Number"><h6>1-800-356-6522</h6></div>
+                <div><img src="../img/door-img.png" alt="Sign"><h6>SignUp/Login</h6></div>
             </div>
-        </nav>
+        </div>
+        <div class="down">
+            <img src="../img/NewLogoImage.svg" alt="Logo Future Bank" >
+            <ul id="List">
+                <span id="closeList">&times;</span>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">projets d'investissement</a></li>
+                <li><a href="#">prêt</a></li>
+                <li><a href="#">à propos</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="login.html">Apply now</a></li>
+                
+            </ul>
+            <a href="login.html">Apply now</a>
+            <i id="openList" class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
     <!-- End header -->
@@ -45,7 +42,8 @@
  <!--cover-->
  <section class="cover-image">
     <div class="cover-text">
-        <h3>Welcome To FutureBank</h3>
+       <img src="../img/stroke.svg" alt="">
+         <span>Welcome To FutureBank</span> 
          <p> Because we care about you , <br> 
             stay <span> connected with us</span></p>
     </div>
@@ -64,7 +62,7 @@
            
             <input type="text" id="Lname" placeholder="Last name" >
 
-            <input type="phone" id="Mphone" placeholder="Phone number">
+            <input type="tel" id="Mphone" placeholder="Phone number">
 
             <textarea type="text" id="ftext" placeholder="Message Content"></textarea>
 
@@ -74,33 +72,33 @@
 
  </section>
  <section class="FAQ">  
-    <div class="title"> <h2>Here is the<span>Frequantly asked qeustions ?</span></h2></div>
+    <div class="title"> <h2>Here is the<span> Frequantly asked qeustions ?</span></h2></div>
    
     <div class="tabs-container">
         <input type="radio" class="tabs-radio" name="tab" id="account" checked >
-        <label for="account" class="tabs-label">account</label>
+        <label for="account" class="tabs-label" id="tabs-label-account">account</label>
         <div class="content-tab">
-            <h3>how do i open a new account</h3>
+            <h5>how do i open a new account</h5>
             <p>You can open a new account online through our website or visit any branch with your identification and proof of address.</p>
-            <h3>What are the fees for maintaining an account?</h3>
+            <h5>What are the fees for maintaining an account?</h5>
             <p>Our account maintenance fees vary based on the account type. Savings accounts typically have no monthly fees, while checking accounts may have a small maintenance charge.</p>
         </div>
         <input type="radio"  class="tabs-radio" name="tab" id="loans">
         <label for="loans" class="tabs-label" id="tabs-label-loans">loans</label>
         <div class="content-tab">
-            <h3>About account</h3>
+            <h5>About account</h5>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil similique asperiores, nisi tempora est fuga maiores ea recusandae aspernatur animi modi vero omnis consequuntur eum nobis reprehenderit culpa, voluptate itaque quia quae. Aliquid nihil sequi, quos natus repudiandae dicta nulla sapiente excepturi porro dolorum impedit. Perspiciatis reprehenderit repudiandae similique? Tempore!</p>
         </div>
         <input type="radio"  class="tabs-radio" name="tab" id="Scholarships">
         <label for="Scholarships" class="tabs-label" id="tabs-label-loans">Scholarships</label>
         <div class="content-tab">
-            <h3>About account</h3>
+            <h5>About account</h5>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil similique asperiores, nisi tempora est fuga maiores ea recusandae aspernatur animi modi vero omnis consequuntur eum nobis reprehenderit culpa, voluptate itaque quia quae. Aliquid nihil sequi, quos natus repudiandae dicta nulla sapiente excepturi porro dolorum impedit. Perspiciatis reprehenderit repudiandae similique? Tempore!</p>
         </div>
         <input type="radio"  class="tabs-radio" name="tab" id="Entrepreneurship">
         <label for="Entrepreneurship" class="tabs-label" id="tabs-label-Entrepreneurship">Entrepreneurship</label>
         <div class="content-tab">
-            <h3>About account</h3>
+            <h5>About account</h5>
             <p></p>
         </div>
     </div>
@@ -166,5 +164,6 @@
     </footer>
 
     <!-- end footer -->
+     <script src="../js/script.js"></script>
 </body>
 </html>

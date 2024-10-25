@@ -152,13 +152,17 @@ img {
 }
 .cover-text span {
   color: blue;
+  font-weight:bold;
+
+
+
 }
-.cover-text p {
-  font-size: 30px;
+.cover-text p  {
+  font-size: 25px;
   font-weight: bold;
-  margin-left: 80px;
-  margin-top: 15px;
+
 }
+
 .cover-text h3 {
   margin: 0 80px;
 }
@@ -178,10 +182,10 @@ img {
 
 .content-text {
   height: 300px;
-  width: 403px;
+  width: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   font-family: Poppins;
 }
 .content-text p {
@@ -193,6 +197,7 @@ img {
   font-weight: bold;
   font-size: 35px;
 }
+
 
 .content-form {
   background-color: white;
@@ -312,6 +317,18 @@ label {
   width: 100%;
   display: none;
   padding: 30px;
+ 
+}
+.content-tab h5{
+  font-size:12px;
+  font-weight:100px;
+  color: black;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.content-tab p {
+  font-size: 13px;
 }
 .tabs-radio:checked + .tabs-label {
   font-weight: bold;
@@ -449,8 +466,49 @@ footer > div:last-child h6 {
     align-items: center;
   }
   .content-text p {
-    padding:15px 70px 0 0;
+    padding:15px 70px
   }
+  .tabs-container {
+    flex-direction: column;
+    align-items: center ;
+  }
+  .tabs-radio:checked + .tabs-label {
+    font-weight: bold;
+    background-color: #1521cf;
+    color: white;
+  }
+  .element.style {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  #tabs-label-loans{
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    height: 40px;
+  }
+
+#tabs-label-loans {
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+}
+#tabs-label-Entrepreneurship {
+ width: 100%;
+ text-align: center;
+ border-radius: 20px;
+ height: 40px;
+}
+#tabs-label-account{
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+height: 40px;
+}
+
+  
 }
 
 /* ====================== footer ============================= */
